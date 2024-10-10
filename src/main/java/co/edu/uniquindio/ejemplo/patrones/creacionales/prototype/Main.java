@@ -8,6 +8,13 @@ import co.edu.uniquindio.ejemplo.patrones.creacionales.prototype.services.IBille
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+El sistema permite generar múltiples copias de un
+billete con características similares, como el valor,
+el país y la fecha de emisión. Esto facilita la creación
+masiva de billetes duplicados a partir de un billete original
+sin tener que crear cada uno por separado.
+* */
 public class Main {
     public static void main(String[] args) {
         prototype();

@@ -5,6 +5,12 @@ import co.edu.uniquindio.ejemplo.patrones.creacionales.factorymethod.model.PagoF
 import co.edu.uniquindio.ejemplo.patrones.creacionales.factorymethod.services.IPago;
 import co.edu.uniquindio.ejemplo.patrones.creacionales.factorymethod.services.TipoPago;
 
+/*
+El sistema está diseñado para gestionar la creación y procesamiento
+de diferentes métodos de pago, como pagos en efectivo, con tarjeta
+de crédito, tarjeta de débito o por transferencia, permitiendo
+seleccionar el tipo de pago y establecer el valor de cada pago de forma práctica.
+* */
 public class Main {
     public static void main(String[] args) {
         factoryMethod();

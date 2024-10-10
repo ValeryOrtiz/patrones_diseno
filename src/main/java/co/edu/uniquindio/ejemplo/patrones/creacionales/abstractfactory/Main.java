@@ -6,6 +6,15 @@ import co.edu.uniquindio.ejemplo.patrones.creacionales.abstractfactory.model.Exa
 import co.edu.uniquindio.ejemplo.patrones.creacionales.abstractfactory.services.Examen;
 import co.edu.uniquindio.ejemplo.patrones.creacionales.abstractfactory.services.ExamenFactory;
 
+/*
+El sistema gestiona la creación de exámenes para
+ diferentes materias, como inglés y programación,
+ permitiendo generar tanto parciales como quizzes
+ con características personalizadas, como duración,
+ número de preguntas, y fecha de aplicación, según
+ los requisitos de cada examen.
+* */
+
 public class Main {
     public static void main(String[] args) {
         abstractFactory();
